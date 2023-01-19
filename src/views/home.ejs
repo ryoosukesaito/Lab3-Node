@@ -1,0 +1,19 @@
+<%- include('partials/header.ejs') %>
+
+  <div class="title">
+    <ul class="title-list">
+      <div class="title-h1">
+        <h1>This is Home Page</h1>
+      </div>
+      <div class="greet-message">
+        <h2>Hello <%= name %></h2>
+      </div>
+    </ul>
+  </div>
+
+  <ul>
+    <li><a href="/leave-notes">Leave Notes</a></li>
+    <li><a href="/read-notes">Read Notes</a></li>
+  </ul>
+  
+  <%- include('partials/footer.ejs') %>

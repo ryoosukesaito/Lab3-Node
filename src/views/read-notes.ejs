@@ -1,0 +1,11 @@
+<%- include('partials/header.ejs') %>
+<main>
+  <h1>Read Notes</h1>
+  <%if(Notes.length > 0) {for (let Note of Notes){%>
+    <p><%= Note%></p>
+  <% } %><% } else { %>
+    <p>No Note</p>
+    <%}%>
+</main>
+
+<%- include('partials/footer.ejs') %>

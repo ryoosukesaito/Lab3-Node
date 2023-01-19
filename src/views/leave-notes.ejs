@@ -1,0 +1,12 @@
+<%- include('partials/header.ejs') %>
+
+  <h1>Write Notes Page</h1>
+
+  <form class="note-form" action="/notes" method="POST">
+    <input type="text" name="notes" placeholder="Input Notes">
+    <button type="submit">Submit</button>
+  </form>
+
+
+
+  <%- include('partials/footer.ejs') %>
